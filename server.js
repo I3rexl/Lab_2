@@ -10,7 +10,7 @@ const server = createServer((req, res) => {
   res.write('<h1>NoteJS-Bai Lab 2</h1>\n');
   res.write(`<h1>HTML5 - Nội dung 1</h1>
     <h2>HTML5 - Nội dung 2</h2>
-    <p>HTML5 - Nội dung 3</p>`);
+    <p>HTML5 - Nội dung 3.1</p>`);
   
   res.end();
 });

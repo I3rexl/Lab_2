@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/home', (req, res) => {
-    console.log("Vao trang home");
+    console.log("Vao trang home1");
     
     res.send('Home')
   })
